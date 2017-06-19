@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  
+
   "engines": {
     "node": "7.10.0",
     "npm": "4.2.0"
   },
   "scripts": {
-    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "postinstall": "webpack -p",
     "start": "node server.js"
   },
